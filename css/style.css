@@ -177,6 +177,13 @@ body {
 
 /* ///---------------------------------/// */
 
+@media (any-hover: hover) {
+  .menu__link:hover {
+    color: #fff;
+    background-color: #28293e;
+  }
+}
+
 @media (max-width: 1030px) {
   .cards {
     gap: 20px;
